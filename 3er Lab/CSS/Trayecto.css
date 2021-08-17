@@ -1,0 +1,107 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #CEFEFD;
+}
+
+:root{
+    --color1: #FFD9D9;
+    --color2: #CEFEFD;
+    --blanco: white;
+    --negro: black;
+    --font1: 'Lato', sans-serif;  
+    --font2: 'Oswald', sans-serif; 
+}
+
+.cabecera{
+    width: 100%;
+    height: 150px;
+    background-color: var(--color1);
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabecera img{
+    height: 100%;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido{
+    list-style: none;
+    display: flex;
+}
+
+.contenido li{
+    margin: 20px;
+}
+
+.contenido a{
+    font-family: var(--font2);
+    text-decoration: none;
+    font-size: 25px;
+    color: var(--negro);
+}
+
+.contenido :hover{
+    color: var(--blanco);
+    transition: 200ms;
+}
+
+.franjas {
+    height: 20px;
+    width: 100%;
+    background-color: var(--color1);
+}
+
+.menu{
+    display:flex;
+    flex-direction:column;
+}
+
+.menu h1{
+    font-size: 40px;
+    font-family: var(--font1);
+}
+
+.menu h2{
+    font-size: 30px;
+    font-family: var(--font1);
+}
+
+.menu li{
+    font-size: 15px;
+    font-family: var(--font2);
+}
+
+
+.titulo{
+    display: flex;
+    font-family: var(--font1);
+    font-size: 45px;
+    justify-content: center;
+    align-content: center;
+}
+
+.butinicio{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 20px;
+}
+
+.butinicio a{
+    font-size: 35px;
+    color: var(--negro);
+    text-decoration: none;
+    font-family: var(--font1);
+}
+
+.butinicio :hover{
+    color: var(--color1 );
+    transition: 200ms;
+}
